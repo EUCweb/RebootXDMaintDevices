@@ -16,3 +16,7 @@ After the configured wait time ($wait1) the VDAs in state "Maintenance Mode ON" 
 
 The Reboot was not initiated through XenDesktop, because the script does not detect the Power Management of the Machine Catalog. The reboot would be performed through Stop-Computer with Powershell. All the steps are logged
 
+
+#full blog, get here https://www.mycugc.org/blog/reboot-schedule-vm-in-maintenance-mode
+
+
