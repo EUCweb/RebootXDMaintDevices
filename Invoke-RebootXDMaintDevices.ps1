@@ -33,12 +33,11 @@ Begin {
     $cu = $env:username
     $Global:SumData=@()
     $LogFolder = "Logs"
-    #$Global:LogFilePath = "$script_dir\$LogFolder"
-    $Global:LogFilePath = "$script_dir"
+    $Global:LogFilePath = "$script_dir\$LogFolder"
     $Global:LogFileName = "Invoke-RebootXDMaintDevices_$timestamp.log"
     $Global:LOGFile="$LogFilePath\$LogFileName"
     $Global:Domain = (Get-WmiObject -Class Win32_ComputerSystem).domain
-    $ModulePath = "$script_dir"
+    $ModulePath = "$script_dir\Module"
     
 
 
