@@ -1,6 +1,5 @@
-# RebootXDMaintDevices
-Reboot Schedule - VM's in Maintenance Mode 
-
+# Reboot Schedule - VM's in Maintenance Mode
+ 
 As Citrix describes in their own blog, Reboot Schedule Internals, VDAs in Maintenance Mode would not be rebooted. I have created a simple Powershell Script that fullfills that.You can run the Script from the Controller itself or from any Admin-VM,  where you have installed Citrix Studio or the Powershell Commands for Citrix XenDesktop only.
 
 It's possible to run the script as a scheduled task with your prefered day/time configuration. The account (e.g. FC-SVC-CTX-Maint) that runs with the scheduled task must have read access to each XenDesktop Site as a minimum.  
