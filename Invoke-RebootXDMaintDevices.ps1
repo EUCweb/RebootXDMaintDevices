@@ -37,7 +37,7 @@ Begin {
     $Global:LogFileName = "Invoke-RebootXDMaintDevices_$timestamp.log"
     $Global:LOGFile="$LogFilePath\$LogFileName"
     $Global:Domain = (Get-WmiObject -Class Win32_ComputerSystem).domain
-    $ModulePath = "$script_dir\module"
+    $ModulePath = "$script_dir"
     
 
 
